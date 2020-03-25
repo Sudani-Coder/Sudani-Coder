@@ -2,6 +2,10 @@
 	box-sizing: border-box !important;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	margin: 0 !important;
 	padding: 0 !important;
@@ -32,6 +36,12 @@ body {
 
 	.copyright {
 		font-size: 12px;
+	}
+}
+
+@media (max-width: 575.9px) {
+	.theskills {
+		max-width: 200px !important;
 	}
 }
 
